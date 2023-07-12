@@ -9,6 +9,8 @@ import Foundation
 
 struct ImageInfo: Codable {
     let urls: Urls
+    let user: User?
+    let alt_description: String?
 }
 
 struct Urls: Codable {
@@ -16,4 +18,8 @@ struct Urls: Codable {
     var regularURL: URL {
         return URL(string: regular)!
     }
+}
+
+struct User: Codable {
+    let location: String?
 }

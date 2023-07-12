@@ -10,6 +10,7 @@ import Foundation
 class HomeViewModel {
     
     private var picInfo: [ImageInfo] = []
+    private var position: Int = -1
     
     func fetchImages(completion: @escaping (Result<Void, Error>) -> Void) {
         let address = "https://api.unsplash.com/photos/?client_id=nqumVCQkvEWe7M_vEXHu9JQKoay4OSHbKsNDOQx6sN8&order_by=ORDER&per_page=30"
@@ -27,12 +28,21 @@ class HomeViewModel {
                         completion(.failure(error))
                     }
                 }
-            }
+            }.resume()
         }
     }
     
     func hasImages() -> Bool {
         return !picInfo.isEmpty
+    }
+    
+    func getRandomImageInfo() -> ImageInfo {
+        position = Int.random(in: 0..<picInfo.count)
+        return picInfo[position]
+    }
+    
+    func saveImage() {
+        AppStatic.savedList.append(picInfo[position])
     }
     
 }

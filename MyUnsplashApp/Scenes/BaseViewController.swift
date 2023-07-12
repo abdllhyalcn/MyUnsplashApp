@@ -9,6 +9,8 @@ import UIKit
 
 class BaseViewController: UIViewController {
     
+    private var activityView: UIActivityIndicatorView?
+    
     init() {
         super.init(nibName: nil, bundle: nil)
     }
@@ -33,6 +35,23 @@ class BaseViewController: UIViewController {
     }
     
     func setup() {
+    }
+    
+    func showActivityIndicator() {
+        activityView = UIActivityIndicatorView(style: .large)
+        activityView?.center = self.view.center
+        self.view.addSubview(activityView!)
+        DispatchQueue.main.async {
+            self.activityView?.startAnimating()
+        }
+    }
+
+    func hideActivityIndicator(){
+        if (activityView != nil){
+            DispatchQueue.main.async {
+                self.activityView?.stopAnimating()
+            }
+        }
     }
     
 }

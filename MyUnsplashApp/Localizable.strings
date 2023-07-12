@@ -6,10 +6,10 @@
   
 */
 
-"tab.home.title" = "Home Sayfası";
-"tab.images.title" = "Images Sayfası";
-"tab.information.title" = "Profile Sayfası";
+"tab.home.title" = "Home Page";
+"tab.images.title" = "Images Page";
+"tab.information.title" = "Information Page";
 
-"constant.information" = "Bilgilendirme";
+"constant.information" = "Information";
 
-"constant.image.fetch.error" = "Fotoğraflar çekilirken bir hata oluştu.";
+"constant.image.fetch.error" = "An error occured while fetching photos.";

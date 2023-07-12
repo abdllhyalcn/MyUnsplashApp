@@ -7,5 +7,5 @@ target 'MyUnsplashApp' do
 
   # Pods for MyUnsplashApp
 pod 'R.swift'
-pod 'lottie-ios'
+pod 'Kingfisher'
 end
