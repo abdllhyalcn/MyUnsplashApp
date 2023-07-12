@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ECF6899DA07765BE3122009 /* Pods_MyUnsplashApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026FFFD7AAD43BE6871DFCC5 /* Pods_MyUnsplashApp.framework */; };
 		6E34DFA22A5F3258006E73BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34DFA12A5F3258006E73BE /* AppDelegate.swift */; };
 		6E34DFAB2A5F3259006E73BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E34DFAA2A5F3259006E73BE /* Assets.xcassets */; };
 		6E34DFAE2A5F3259006E73BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E34DFAC2A5F3259006E73BE /* LaunchScreen.storyboard */; };
@@ -18,11 +19,16 @@
 		6E34DFC62A5F3A34006E73BE /* ImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E34DFC42A5F3A34006E73BE /* ImagesViewController.xib */; };
 		6E34DFCA2A5F3A4C006E73BE /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34DFC82A5F3A4C006E73BE /* InformationViewController.swift */; };
 		6E34DFCB2A5F3A4C006E73BE /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E34DFC92A5F3A4C006E73BE /* InformationViewController.xib */; };
-		6E34DFCE2A5F3C90006E73BE /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 6E34DFCD2A5F3C90006E73BE /* RswiftLibrary */; };
-		6E34DFD02A5F3C90006E73BE /* rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E34DFCF2A5F3C90006E73BE /* rswift */; };
+		6E34DFDA2A5F408D006E73BE /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34DFD92A5F408D006E73BE /* R.generated.swift */; };
+		6E34DFDC2A5F4158006E73BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E34DFDB2A5F4158006E73BE /* Localizable.strings */; };
+		6E34DFDF2A5F4498006E73BE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34DFDE2A5F4498006E73BE /* HomeViewModel.swift */; };
+		6E34DFE22A5F45CF006E73BE /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34DFE12A5F45CF006E73BE /* ImageInfo.swift */; };
+		6E34DFE42A5F4817006E73BE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34DFE32A5F4817006E73BE /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01A00FEB3B95E9A6859727D8 /* Pods-MyUnsplashApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUnsplashApp.debug.xcconfig"; path = "Target Support Files/Pods-MyUnsplashApp/Pods-MyUnsplashApp.debug.xcconfig"; sourceTree = "<group>"; };
+		026FFFD7AAD43BE6871DFCC5 /* Pods_MyUnsplashApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyUnsplashApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E34DF9E2A5F3258006E73BE /* MyUnsplashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUnsplashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E34DFA12A5F3258006E73BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E34DFAA2A5F3259006E73BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +42,12 @@
 		6E34DFC42A5F3A34006E73BE /* ImagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesViewController.xib; sourceTree = "<group>"; };
 		6E34DFC82A5F3A4C006E73BE /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		6E34DFC92A5F3A4C006E73BE /* InformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
+		6E34DFD92A5F408D006E73BE /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		6E34DFDB2A5F4158006E73BE /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		6E34DFDE2A5F4498006E73BE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6E34DFE12A5F45CF006E73BE /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		6E34DFE32A5F4817006E73BE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		A4E7CE63263498063CC18BB0 /* Pods-MyUnsplashApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyUnsplashApp.release.xcconfig"; path = "Target Support Files/Pods-MyUnsplashApp/Pods-MyUnsplashApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,19 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E34DFCE2A5F3C90006E73BE /* RswiftLibrary in Frameworks */,
-				6E34DFD02A5F3C90006E73BE /* rswift in Frameworks */,
+				0ECF6899DA07765BE3122009 /* Pods_MyUnsplashApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AAEFB42589E69AD944D7096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026FFFD7AAD43BE6871DFCC5 /* Pods_MyUnsplashApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E34DF952A5F3258006E73BE = {
 			isa = PBXGroup;
 			children = (
 				6E34DFA02A5F3258006E73BE /* MyUnsplashApp */,
 				6E34DF9F2A5F3258006E73BE /* Products */,
+				92535AF805B9B7D118CE339D /* Pods */,
+				0AAEFB42589E69AD944D7096 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,12 +91,15 @@
 		6E34DFA02A5F3258006E73BE /* MyUnsplashApp */ = {
 			isa = PBXGroup;
 			children = (
+				6E34DFD92A5F408D006E73BE /* R.generated.swift */,
 				6E34DFBF2A5F3A04006E73BE /* Helper */,
+				6E34DFE02A5F45BC006E73BE /* Model */,
 				6E34DFB62A5F386F006E73BE /* Scenes */,
 				6E34DFA12A5F3258006E73BE /* AppDelegate.swift */,
 				6E34DFAA2A5F3259006E73BE /* Assets.xcassets */,
 				6E34DFAC2A5F3259006E73BE /* LaunchScreen.storyboard */,
 				6E34DFB52A5F3782006E73BE /* Info.plist */,
+				6E34DFDB2A5F4158006E73BE /* Localizable.strings */,
 			);
 			path = MyUnsplashApp;
 			sourceTree = "<group>";
@@ -94,6 +118,7 @@
 		6E34DFB72A5F3874006E73BE /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				6E34DFDD2A5F448A006E73BE /* ViewModel */,
 				6E34DFB82A5F3885006E73BE /* HomeViewController.swift */,
 				6E34DFB92A5F3885006E73BE /* HomeViewController.xib */,
 			);
@@ -104,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				6E34DFC02A5F3A11006E73BE /* UIWindowHelper.swift */,
+				6E34DFE32A5F4817006E73BE /* UIViewControllerExtension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -126,6 +152,31 @@
 			path = Information;
 			sourceTree = "<group>";
 		};
+		6E34DFDD2A5F448A006E73BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E34DFDE2A5F4498006E73BE /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6E34DFE02A5F45BC006E73BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E34DFE12A5F45CF006E73BE /* ImageInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92535AF805B9B7D118CE339D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01A00FEB3B95E9A6859727D8 /* Pods-MyUnsplashApp.debug.xcconfig */,
+				A4E7CE63263498063CC18BB0 /* Pods-MyUnsplashApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,20 +184,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E34DFB22A5F3259006E73BE /* Build configuration list for PBXNativeTarget "MyUnsplashApp" */;
 			buildPhases = (
+				EDF948DAC0238E58ABD902D0 /* [CP] Check Pods Manifest.lock */,
+				6E34DFD82A5F401E006E73BE /* Run Rswift */,
 				6E34DF9A2A5F3258006E73BE /* Sources */,
 				6E34DF9B2A5F3258006E73BE /* Frameworks */,
 				6E34DF9C2A5F3258006E73BE /* Resources */,
+				490132C939DB633A33EC91CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E34DFD22A5F3CBF006E73BE /* PBXTargetDependency */,
+				6E34DFD72A5F3F48006E73BE /* PBXTargetDependency */,
 			);
 			name = MyUnsplashApp;
-			packageProductDependencies = (
-				6E34DFCD2A5F3C90006E73BE /* RswiftLibrary */,
-				6E34DFCF2A5F3C90006E73BE /* rswift */,
-			);
 			productName = MyUnsplashApp;
 			productReference = 6E34DF9E2A5F3258006E73BE /* MyUnsplashApp.app */;
 			productType = "com.apple.product-type.application";
@@ -175,9 +225,6 @@
 				Base,
 			);
 			mainGroup = 6E34DF952A5F3258006E73BE;
-			packageReferences = (
-				6E34DFCC2A5F3C90006E73BE /* XCRemoteSwiftPackageReference "R" */,
-			);
 			productRefGroup = 6E34DF9F2A5F3258006E73BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E34DFAE2A5F3259006E73BE /* LaunchScreen.storyboard in Resources */,
+				6E34DFDC2A5F4158006E73BE /* Localizable.strings in Resources */,
 				6E34DFCB2A5F3A4C006E73BE /* InformationViewController.xib in Resources */,
 				6E34DFAB2A5F3259006E73BE /* Assets.xcassets in Resources */,
 				6E34DFC62A5F3A34006E73BE /* ImagesViewController.xib in Resources */,
@@ -202,13 +250,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		490132C939DB633A33EC91CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyUnsplashApp/Pods-MyUnsplashApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyUnsplashApp/Pods-MyUnsplashApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyUnsplashApp/Pods-MyUnsplashApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E34DFD82A5F401E006E73BE /* Run Rswift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Rswift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		EDF948DAC0238E58ABD902D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyUnsplashApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E34DF9A2A5F3258006E73BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E34DFC52A5F3A34006E73BE /* ImagesViewController.swift in Sources */,
+				6E34DFDA2A5F408D006E73BE /* R.generated.swift in Sources */,
+				6E34DFE42A5F4817006E73BE /* UIViewControllerExtension.swift in Sources */,
 				6E34DFA22A5F3258006E73BE /* AppDelegate.swift in Sources */,
+				6E34DFE22A5F45CF006E73BE /* ImageInfo.swift in Sources */,
+				6E34DFDF2A5F4498006E73BE /* HomeViewModel.swift in Sources */,
 				6E34DFC12A5F3A11006E73BE /* UIWindowHelper.swift in Sources */,
 				6E34DFBA2A5F3885006E73BE /* HomeViewController.swift in Sources */,
 				6E34DFBE2A5F38E5006E73BE /* BaseViewController.swift in Sources */,
@@ -219,9 +333,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E34DFD22A5F3CBF006E73BE /* PBXTargetDependency */ = {
+		6E34DFD72A5F3F48006E73BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 6E34DFD12A5F3CBF006E73BE /* RswiftGenerateInternalResources */;
+			productRef = 6E34DFD62A5F3F48006E73BE /* RswiftGenerateInternalResources */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,6 +467,7 @@
 		};
 		6E34DFB32A5F3259006E73BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A00FEB3B95E9A6859727D8 /* Pods-MyUnsplashApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -383,6 +498,7 @@
 		};
 		6E34DFB42A5F3259006E73BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E7CE63263498063CC18BB0 /* Pods-MyUnsplashApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,7 +551,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6E34DFCC2A5F3C90006E73BE /* XCRemoteSwiftPackageReference "R" */ = {
+		6E34DFD32A5F3F13006E73BE /* XCRemoteSwiftPackageReference "R" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mac-cain13/R.swift";
 			requirement = {
@@ -446,19 +562,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6E34DFCD2A5F3C90006E73BE /* RswiftLibrary */ = {
+		6E34DFD62A5F3F48006E73BE /* RswiftGenerateInternalResources */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6E34DFCC2A5F3C90006E73BE /* XCRemoteSwiftPackageReference "R" */;
-			productName = RswiftLibrary;
-		};
-		6E34DFCF2A5F3C90006E73BE /* rswift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E34DFCC2A5F3C90006E73BE /* XCRemoteSwiftPackageReference "R" */;
-			productName = rswift;
-		};
-		6E34DFD12A5F3CBF006E73BE /* RswiftGenerateInternalResources */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E34DFCC2A5F3C90006E73BE /* XCRemoteSwiftPackageReference "R" */;
+			package = 6E34DFD32A5F3F13006E73BE /* XCRemoteSwiftPackageReference "R" */;
 			productName = "plugin:RswiftGenerateInternalResources";
 		};
 /* End XCSwiftPackageProductDependency section */

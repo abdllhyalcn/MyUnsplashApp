@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  MyUnsplashApp
+
+  Created by Abdullah Yalçın on 12.07.2023.
+  
+*/
+
+"tab.home.title" = "Home Sayfası";
+"tab.images.title" = "Images Sayfası";
+"tab.information.title" = "Profile Sayfası";
+
+"constant.information" = "Bilgilendirme";
+
+"constant.image.fetch.error" = "Fotoğraflar çekilirken bir hata oluştu.";

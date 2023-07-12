@@ -6,26 +6,26 @@
 //
 
 import Foundation
+import UIKit
 
 class UIWindowHelper {
-   /*
-    private func getTabBarController() -> UITabBarController {
-        let tabViewController1 = getNavigationController(DashboardViewController(), UITabBarItem(title: R.string.localizable.tabbarMainPage(), image: R.image.tabMain(), selectedImage: R.image.tabMainSelected()))
-        let tabViewController2 = getNavigationController(CampaignsListViewController(), UITabBarItem(title: R.string.localizable.tabbarCampaigns(), image: R.image.tabCampaigns(), selectedImage: R.image.tabCampaignsSelected()))
-        let tabViewController3 = getNavigationController(TransactionMenuViewController(viewModel: TransactionMenuViewModel(transactionMenu: TransactionMenuEnum.PAYMENT)), UITabBarItem(title: R.string.localizable.tabbarPayments(), image: R.image.tabPayments(), selectedImage: R.image.tabPaymentsSelected()))
-        let tabViewController4 = getNavigationController(TransactionListViewController(), UITabBarItem(title: R.string.localizable.tabbarTransactions(), image: R.image.tabTransactions(), selectedImage: R.image.tabTransactionsSelected()))
-        let tabViewController5 = getNavigationController(ProfileViewController(), UITabBarItem(title: R.string.localizable.tabbarProfile(), image: R.image.tabProfile(), selectedImage: R.image.tabProfileSelected()))
+   
+    func getTabBarController() -> UITabBarController {
+        let tabViewController1 = getNavigationController(HomeViewController(), UITabBarItem(title: R.string.localizable.tabHomeTitle(), image: R.image.tabHome(), tag: 0))
+        let tabViewController2 = getNavigationController(ImagesViewController(), UITabBarItem(title: R.string.localizable.tabImagesTitle(), image: R.image.tabImages(), tag: 1))
+        let tabViewController3 = getNavigationController(InformationViewController(), UITabBarItem(title: R.string.localizable.tabInformationTitle(), image: R.image.tabInformation(), tag: 2))
         
-        let tabBarController = TabBarController()
-        tabBarController.viewControllers = [tabViewController1 , tabViewController2 , tabViewController3, tabViewController4, tabViewController5]
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [tabViewController1 , tabViewController2 , tabViewController3]
         
         return tabBarController
     }
     
     private func getNavigationController(_ viewController: UIViewController, _ tabItem: UITabBarItem) -> UINavigationController {
         let nav = UINavigationController()
+        nav.isNavigationBarHidden = false
         nav.viewControllers = [viewController]
         nav.tabBarItem = tabItem
         return nav
-    }*/
+    }
 }
