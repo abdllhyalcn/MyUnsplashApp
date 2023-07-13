@@ -41,9 +41,8 @@ class HomeViewModel {
         return picInfo[position]
     }
     
-    func saveImage() -> Bool {
+    func saveImage() {
         AppStatic.savedList.append(picInfo[position])
-        return true
     }
     
 }
