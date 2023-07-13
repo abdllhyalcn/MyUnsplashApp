@@ -65,7 +65,11 @@ class HomeViewController: BaseViewController {
     }
     
     @objc private func saveTouch() {
-        viewModel.saveImage()
+        if viewModel.saveImage() {
+            let alertSuccess = UIAlertController(title: R.string.localizable.constantInformation(), message: R.string.localizable.constantImageSaveDescription(), preferredStyle: .alert)
+            alertSuccess.addAction(UIAlertAction(title: R.string.localizable.constantImageSaveAction(), style: .default))
+            self.present(alertSuccess, animated: true)
+        }
     }
     
     @IBAction func refreshTouch(_ sender: Any) {

@@ -13,3 +13,6 @@
 "constant.information" = "Information";
 
 "constant.image.fetch.error" = "An error occured while fetching photos.";
+
+"constant.image.save.description" = "Photo succesfully saved.";
+"constant.image.save.action" = "Ok";
